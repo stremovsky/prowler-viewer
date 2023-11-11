@@ -1,0 +1,4703 @@
+[{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-cloudfront_distributions_using_deprecated_ssl_protocols-123456789-us-east-1-EH6DYIAETPL5A",
+    "Provider": "aws",
+    "CheckID": "cloudfront_distributions_using_deprecated_ssl_protocols",
+    "CheckTitle": "Check if CloudFront distributions are using deprecated SSL protocols.",
+    "CheckType": [
+        ""
+    ],
+    "ServiceName": "cloudfront",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "CloudFront Distribution EH6DYIAETPL5A is using a deprecated SSL protocol",
+    "Severity": "low",
+    "ResourceType": "AwsCloudFrontDistribution",
+    "ResourceDetails": "",
+    "Description": "Check if CloudFront distributions are using deprecated SSL protocols.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "https://docs.bridgecrew.io/docs/networking_33#cli-command",
+            "Other": "https://docs.bridgecrew.io/docs/networking_33#aws-cloudfront-console"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html"
+        }
+    },
+    "Compliance": {
+        "AWS-Foundational-Security-Best-Practices": [
+            "cloudfront"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-east-1",
+    "ResourceId": "EH6DYIAETPL5A",
+    "ResourceArn": "arn:aws:cloudfront::123456789:distribution/EH6DYIAETPL5A",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-cloudfront_distributions_using_deprecated_ssl_protocols-123456789-us-east-1-EL1SJS9EZYM6K",
+    "Provider": "aws",
+    "CheckID": "cloudfront_distributions_using_deprecated_ssl_protocols",
+    "CheckTitle": "Check if CloudFront distributions are using deprecated SSL protocols.",
+    "CheckType": [
+        ""
+    ],
+    "ServiceName": "cloudfront",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "CloudFront Distribution EL1SJS9EZYM6K is using a deprecated SSL protocol",
+    "Severity": "low",
+    "ResourceType": "AwsCloudFrontDistribution",
+    "ResourceDetails": "",
+    "Description": "Check if CloudFront distributions are using deprecated SSL protocols.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "https://docs.bridgecrew.io/docs/networking_33#cli-command",
+            "Other": "https://docs.bridgecrew.io/docs/networking_33#aws-cloudfront-console"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html"
+        }
+    },
+    "Compliance": {
+        "AWS-Foundational-Security-Best-Practices": [
+            "cloudfront"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-east-1",
+    "ResourceId": "EL1SJS9EZYM6K",
+    "ResourceArn": "arn:aws:cloudfront::123456789:distribution/EL1SJS9EZYM6K",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-cloudfront_distributions_using_deprecated_ssl_protocols-123456789-us-east-1-E3117JEOMU6YV5",
+    "Provider": "aws",
+    "CheckID": "cloudfront_distributions_using_deprecated_ssl_protocols",
+    "CheckTitle": "Check if CloudFront distributions are using deprecated SSL protocols.",
+    "CheckType": [
+        ""
+    ],
+    "ServiceName": "cloudfront",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "CloudFront Distribution E3117JEOMU6YV5 is using a deprecated SSL protocol",
+    "Severity": "low",
+    "ResourceType": "AwsCloudFrontDistribution",
+    "ResourceDetails": "",
+    "Description": "Check if CloudFront distributions are using deprecated SSL protocols.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "https://docs.bridgecrew.io/docs/networking_33#cli-command",
+            "Other": "https://docs.bridgecrew.io/docs/networking_33#aws-cloudfront-console"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html"
+        }
+    },
+    "Compliance": {
+        "AWS-Foundational-Security-Best-Practices": [
+            "cloudfront"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-east-1",
+    "ResourceId": "E3117JEOMU6YV5",
+    "ResourceArn": "arn:aws:cloudfront::123456789:distribution/E3117JEOMU6YV5",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-cloudfront_distributions_using_deprecated_ssl_protocols-123456789-us-east-1-E11Z1OVXPTOT4C",
+    "Provider": "aws",
+    "CheckID": "cloudfront_distributions_using_deprecated_ssl_protocols",
+    "CheckTitle": "Check if CloudFront distributions are using deprecated SSL protocols.",
+    "CheckType": [
+        ""
+    ],
+    "ServiceName": "cloudfront",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "CloudFront Distribution E11Z1OVXPTOT4C is not using a deprecated SSL protocol",
+    "Severity": "low",
+    "ResourceType": "AwsCloudFrontDistribution",
+    "ResourceDetails": "",
+    "Description": "Check if CloudFront distributions are using deprecated SSL protocols.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "https://docs.bridgecrew.io/docs/networking_33#cli-command",
+            "Other": "https://docs.bridgecrew.io/docs/networking_33#aws-cloudfront-console"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html"
+        }
+    },
+    "Compliance": {
+        "AWS-Foundational-Security-Best-Practices": [
+            "cloudfront"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-east-1",
+    "ResourceId": "E11Z1OVXPTOT4C",
+    "ResourceArn": "arn:aws:cloudfront::123456789:distribution/E11Z1OVXPTOT4C",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-cloudfront_distributions_using_deprecated_ssl_protocols-123456789-us-east-1-E3NEJVVO1WWQ61",
+    "Provider": "aws",
+    "CheckID": "cloudfront_distributions_using_deprecated_ssl_protocols",
+    "CheckTitle": "Check if CloudFront distributions are using deprecated SSL protocols.",
+    "CheckType": [
+        ""
+    ],
+    "ServiceName": "cloudfront",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "CloudFront Distribution E3NEJVVO1WWQ61 is not using a deprecated SSL protocol",
+    "Severity": "low",
+    "ResourceType": "AwsCloudFrontDistribution",
+    "ResourceDetails": "",
+    "Description": "Check if CloudFront distributions are using deprecated SSL protocols.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "https://docs.bridgecrew.io/docs/networking_33#cli-command",
+            "Other": "https://docs.bridgecrew.io/docs/networking_33#aws-cloudfront-console"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html"
+        }
+    },
+    "Compliance": {
+        "AWS-Foundational-Security-Best-Practices": [
+            "cloudfront"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-east-1",
+    "ResourceId": "E3NEJVVO1WWQ61",
+    "ResourceArn": "arn:aws:cloudfront::123456789:distribution/E3NEJVVO1WWQ61",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-cloudfront_distributions_using_deprecated_ssl_protocols-123456789-us-east-1-E2VAAS8599FTXS",
+    "Provider": "aws",
+    "CheckID": "cloudfront_distributions_using_deprecated_ssl_protocols",
+    "CheckTitle": "Check if CloudFront distributions are using deprecated SSL protocols.",
+    "CheckType": [
+        ""
+    ],
+    "ServiceName": "cloudfront",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "CloudFront Distribution E2VAAS8599FTXS is not using a deprecated SSL protocol",
+    "Severity": "low",
+    "ResourceType": "AwsCloudFrontDistribution",
+    "ResourceDetails": "",
+    "Description": "Check if CloudFront distributions are using deprecated SSL protocols.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "https://docs.bridgecrew.io/docs/networking_33#cli-command",
+            "Other": "https://docs.bridgecrew.io/docs/networking_33#aws-cloudfront-console"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html"
+        }
+    },
+    "Compliance": {
+        "AWS-Foundational-Security-Best-Practices": [
+            "cloudfront"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-east-1",
+    "ResourceId": "E2VAAS8599FTXS",
+    "ResourceArn": "arn:aws:cloudfront::123456789:distribution/E2VAAS8599FTXS",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elb_insecure_ssl_ciphers-123456789-us-east-1-prod-asg-ap-AppELB-1M3QLHW391OVF",
+    "Provider": "aws",
+    "CheckID": "elb_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elb",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELB prod-asg-ap-AppELB-1M3QLHW391OVF has listeners with insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElbLoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elb set-load-balancer-policies-of-listener --load-balancer-name <lb_name> --load-balancer-port 443 --policy-names ELBSecurityPolicy-TLS-1-2-2017-01",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELB/elb-security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "ENS-RD2022": [
+            "mp.com.1.aws.elb.2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-east-1",
+    "ResourceId": "prod-asg-ap-AppELB-1M3QLHW391OVF",
+    "ResourceArn": "",
+    "ResourceTags": {
+        "aws:cloudformation:stack-name": "prod-asg-app",
+        "aws:cloudformation:logical-id": "AppELB",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:123456789:stack/prod-asg-app/0c307de0-a2e0-11ea-8713-12cf4a8c2bc2",
+        "Name": "prod"
+    }
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elb_insecure_ssl_ciphers-123456789-us-east-1-stage-asg-a-AppELB-1JKR9FK2XT5MA",
+    "Provider": "aws",
+    "CheckID": "elb_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elb",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELB stage-asg-a-AppELB-1JKR9FK2XT5MA has listeners with insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElbLoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elb set-load-balancer-policies-of-listener --load-balancer-name <lb_name> --load-balancer-port 443 --policy-names ELBSecurityPolicy-TLS-1-2-2017-01",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELB/elb-security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "ENS-RD2022": [
+            "mp.com.1.aws.elb.2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-east-1",
+    "ResourceId": "stage-asg-a-AppELB-1JKR9FK2XT5MA",
+    "ResourceArn": "",
+    "ResourceTags": {
+        "aws:cloudformation:stack-name": "stage-asg-app",
+        "aws:cloudformation:logical-id": "AppELB",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:123456789:stack/stage-asg-app/8dab0610-b1a4-11ea-853b-0a78092beb51",
+        "Name": "stage"
+    }
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elb_insecure_ssl_ciphers-123456789-us-east-1-dev-asg-app-AppELB-EKCQ0J1625RO",
+    "Provider": "aws",
+    "CheckID": "elb_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elb",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELB dev-asg-app-AppELB-EKCQ0J1625RO has listeners with insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElbLoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elb set-load-balancer-policies-of-listener --load-balancer-name <lb_name> --load-balancer-port 443 --policy-names ELBSecurityPolicy-TLS-1-2-2017-01",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELB/elb-security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "ENS-RD2022": [
+            "mp.com.1.aws.elb.2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-east-1",
+    "ResourceId": "dev-asg-app-AppELB-EKCQ0J1625RO",
+    "ResourceArn": "",
+    "ResourceTags": {
+        "aws:cloudformation:stack-name": "dev-asg-app",
+        "aws:cloudformation:logical-id": "AppELB",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:123456789:stack/dev-asg-app/13a7e340-583a-11ec-b2a0-0a1e8c3758a1",
+        "Name": "dev"
+    }
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elb_ssl_listeners-123456789-us-east-1-prod-asg-ap-AppELB-1M3QLHW391OVF",
+    "Provider": "aws",
+    "CheckID": "elb_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elb",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELB prod-asg-ap-AppELB-1M3QLHW391OVF has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElbLoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elb create-load-balancer-listeners --load-balancer-name <lb_name> --listeners Protocol=HTTPS, LoadBalancerPort=443, InstanceProtocol=HTTP, InstancePort=80, SSLCertificateId=<certificate_arn>",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELB/elb-listener-security.html"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead..",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-data-2"
+        ],
+        "GDPR": [
+            "article_32"
+        ],
+        "HIPAA": [
+            "164_308_a_1_ii_b",
+            "164_308_a_4_ii_a",
+            "164_312_e_1",
+            "164_312_e_2_i",
+            "164_312_e_2_ii"
+        ],
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_1_13",
+            "3_13_1",
+            "3_13_5",
+            "3_13_8",
+            "3_13_15"
+        ],
+        "NIST-800-53-Revision-4": [
+            "ac_17_2",
+            "sc_7",
+            "sc_8_1",
+            "sc_8"
+        ],
+        "NIST-800-53-Revision-5": [
+            "ac_4",
+            "ac_4_22",
+            "ac_17_2",
+            "ac_24_1",
+            "au_9_3",
+            "ca_9_b",
+            "ia_5_1_c",
+            "pm_17_b",
+            "sc_7_4_b",
+            "sc_7_4_g",
+            "sc_7_5",
+            "sc_8",
+            "sc_8_1",
+            "sc_8_2",
+            "sc_8_3",
+            "sc_8_4",
+            "sc_8_5",
+            "sc_13_a",
+            "sc_23",
+            "sc_23_5",
+            "si_1_a_2"
+        ],
+        "ENS-RD2022": [
+            "mp.com.1.aws.elb.1"
+        ],
+        "NIST-CSF-1.1": [
+            "ds_2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "ac-17-2",
+            "sc-7",
+            "sc-8-1",
+            "sc-8",
+            "sc-23"
+        ],
+        "FedRAMP-Low-Revision-4": [
+            "ac-17",
+            "sc-7"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-east-1",
+    "ResourceId": "prod-asg-ap-AppELB-1M3QLHW391OVF",
+    "ResourceArn": "",
+    "ResourceTags": {
+        "aws:cloudformation:stack-name": "prod-asg-app",
+        "aws:cloudformation:logical-id": "AppELB",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:123456789:stack/prod-asg-app/0c307de0-a2e0-11ea-8713-12cf4a8c2bc2",
+        "Name": "prod"
+    }
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elb_ssl_listeners-123456789-us-east-1-stage-asg-a-AppELB-1JKR9FK2XT5MA",
+    "Provider": "aws",
+    "CheckID": "elb_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elb",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELB stage-asg-a-AppELB-1JKR9FK2XT5MA has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElbLoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elb create-load-balancer-listeners --load-balancer-name <lb_name> --listeners Protocol=HTTPS, LoadBalancerPort=443, InstanceProtocol=HTTP, InstancePort=80, SSLCertificateId=<certificate_arn>",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELB/elb-listener-security.html"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead..",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-data-2"
+        ],
+        "GDPR": [
+            "article_32"
+        ],
+        "HIPAA": [
+            "164_308_a_1_ii_b",
+            "164_308_a_4_ii_a",
+            "164_312_e_1",
+            "164_312_e_2_i",
+            "164_312_e_2_ii"
+        ],
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_1_13",
+            "3_13_1",
+            "3_13_5",
+            "3_13_8",
+            "3_13_15"
+        ],
+        "NIST-800-53-Revision-4": [
+            "ac_17_2",
+            "sc_7",
+            "sc_8_1",
+            "sc_8"
+        ],
+        "NIST-800-53-Revision-5": [
+            "ac_4",
+            "ac_4_22",
+            "ac_17_2",
+            "ac_24_1",
+            "au_9_3",
+            "ca_9_b",
+            "ia_5_1_c",
+            "pm_17_b",
+            "sc_7_4_b",
+            "sc_7_4_g",
+            "sc_7_5",
+            "sc_8",
+            "sc_8_1",
+            "sc_8_2",
+            "sc_8_3",
+            "sc_8_4",
+            "sc_8_5",
+            "sc_13_a",
+            "sc_23",
+            "sc_23_5",
+            "si_1_a_2"
+        ],
+        "ENS-RD2022": [
+            "mp.com.1.aws.elb.1"
+        ],
+        "NIST-CSF-1.1": [
+            "ds_2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "ac-17-2",
+            "sc-7",
+            "sc-8-1",
+            "sc-8",
+            "sc-23"
+        ],
+        "FedRAMP-Low-Revision-4": [
+            "ac-17",
+            "sc-7"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-east-1",
+    "ResourceId": "stage-asg-a-AppELB-1JKR9FK2XT5MA",
+    "ResourceArn": "",
+    "ResourceTags": {
+        "aws:cloudformation:stack-name": "stage-asg-app",
+        "aws:cloudformation:logical-id": "AppELB",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:123456789:stack/stage-asg-app/8dab0610-b1a4-11ea-853b-0a78092beb51",
+        "Name": "stage"
+    }
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elb_ssl_listeners-123456789-us-east-1-dev-asg-app-AppELB-EKCQ0J1625RO",
+    "Provider": "aws",
+    "CheckID": "elb_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elb",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELB dev-asg-app-AppELB-EKCQ0J1625RO has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElbLoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elb create-load-balancer-listeners --load-balancer-name <lb_name> --listeners Protocol=HTTPS, LoadBalancerPort=443, InstanceProtocol=HTTP, InstancePort=80, SSLCertificateId=<certificate_arn>",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELB/elb-listener-security.html"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead..",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-data-2"
+        ],
+        "GDPR": [
+            "article_32"
+        ],
+        "HIPAA": [
+            "164_308_a_1_ii_b",
+            "164_308_a_4_ii_a",
+            "164_312_e_1",
+            "164_312_e_2_i",
+            "164_312_e_2_ii"
+        ],
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_1_13",
+            "3_13_1",
+            "3_13_5",
+            "3_13_8",
+            "3_13_15"
+        ],
+        "NIST-800-53-Revision-4": [
+            "ac_17_2",
+            "sc_7",
+            "sc_8_1",
+            "sc_8"
+        ],
+        "NIST-800-53-Revision-5": [
+            "ac_4",
+            "ac_4_22",
+            "ac_17_2",
+            "ac_24_1",
+            "au_9_3",
+            "ca_9_b",
+            "ia_5_1_c",
+            "pm_17_b",
+            "sc_7_4_b",
+            "sc_7_4_g",
+            "sc_7_5",
+            "sc_8",
+            "sc_8_1",
+            "sc_8_2",
+            "sc_8_3",
+            "sc_8_4",
+            "sc_8_5",
+            "sc_13_a",
+            "sc_23",
+            "sc_23_5",
+            "si_1_a_2"
+        ],
+        "ENS-RD2022": [
+            "mp.com.1.aws.elb.1"
+        ],
+        "NIST-CSF-1.1": [
+            "ds_2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "ac-17-2",
+            "sc-7",
+            "sc-8-1",
+            "sc-8",
+            "sc-23"
+        ],
+        "FedRAMP-Low-Revision-4": [
+            "ac-17",
+            "sc-7"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-east-1",
+    "ResourceId": "dev-asg-app-AppELB-EKCQ0J1625RO",
+    "ResourceArn": "",
+    "ResourceTags": {
+        "aws:cloudformation:stack-name": "dev-asg-app",
+        "aws:cloudformation:logical-id": "AppELB",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:123456789:stack/dev-asg-app/13a7e340-583a-11ec-b2a0-0a1e8c3758a1",
+        "Name": "dev"
+    }
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-CloudBE-STAGING35-NLB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 CloudBE-STAGING35-NLB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "CloudBE-STAGING35-NLB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/CloudBE-STAGING35-NLB/1a4f2a4240fd35c4",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV28-NLB-NEW",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV28-NLB-NEW has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV28-NLB-NEW",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/SRV28-NLB-NEW/21a23966dd76133f",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV31-NLB-NEW",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV31-NLB-NEW has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV31-NLB-NEW",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/SRV31-NLB-NEW/23ef589dc1dce9a5",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-private-Prod-NLB-CMSrv-anatoly",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 private-Prod-NLB-CMSrv-anatoly has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "private-Prod-NLB-CMSrv-anatoly",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/private-Prod-NLB-CMSrv-anatoly/4c52c824c7614f1a",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV34-NLB-NEW",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV34-NLB-NEW has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV34-NLB-NEW",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/SRV34-NLB-NEW/5e006c230bf596eb",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV26-NLB-NEW",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV26-NLB-NEW has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV26-NLB-NEW",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/SRV26-NLB-NEW/61fc8ddd3f64999c",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-staging-35-ui",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 staging-35-ui has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "staging-35-ui",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/staging-35-ui/7d7bff0c2ef28e87",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV35-NLB-NEW",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV35-NLB-NEW has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV35-NLB-NEW",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/SRV35-NLB-NEW/7ed64f08ace17c4d",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-public-NLB-rundeck-ui",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 public-NLB-rundeck-ui has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "public-NLB-rundeck-ui",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/public-NLB-rundeck-ui/88cd68fb5cfba856",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-private-Prod-NLB-anatoly",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 private-Prod-NLB-anatoly has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "private-Prod-NLB-anatoly",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/private-Prod-NLB-anatoly/924ec506eefa6993",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV27-NLBname",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV27-NLBname has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV27-NLBname",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/SRV27-NLBname/d019c4736db806f4",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV30-NLB-NEW",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV30-NLB-NEW has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV30-NLB-NEW",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/SRV30-NLB-NEW/da524cab32e9f46d",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV27-NLB-NEW",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV27-NLB-NEW has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV27-NLB-NEW",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/SRV27-NLB-NEW/e5852c800b82ff1f",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV29-NLB-NEW",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV29-NLB-NEW has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV29-NLB-NEW",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/net/SRV29-NLB-NEW/ebadc4046e23d097",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV27-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV27-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV27-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/SRV27-ALB/e85a63614fa39757",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV29-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV29-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV29-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/SRV29-ALB/acce9f34f2b78afd",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV30-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV30-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV30-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/SRV30-ALB/ecf66de3238f6636",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV31-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV31-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV31-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/SRV31-ALB/f032024f6703a7ff",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV34-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV34-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV34-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/SRV34-ALB/92502524431d8fb7",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-UI34-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 UI34-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI34-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI34-ALB/5407ede2d21e3255",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-UI35-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 UI35-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI35-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI35-ALB/1b38e1effcab6bd6",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-UI31-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 UI31-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI31-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI31-ALB/e1716d817c0702a6",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-UI30-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 UI30-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI30-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI30-ALB/7f9e40c32e99ef5e",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-UI29-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 UI29-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI29-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI29-ALB/42e727d38eccff31",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-UI28-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 UI28-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI28-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI28-ALB/b51c557cd4cb6136",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-UI27-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 UI27-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI27-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI27-ALB/6b53edbe60c6e21f",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-UI26-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 UI26-ALB has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI26-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI26-ALB/648659905b675555",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-CMS30-ALB-TEST",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 CMS30-ALB-TEST has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "CMS30-ALB-TEST",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/CMS30-ALB-TEST/7112baba1ab0a7bd",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-SRV29-ALB-public",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 SRV29-ALB-public has not insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV29-ALB-public",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/SRV29-ALB-public/8ffce11d5178987a",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-WEBSOCK-SRV28-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 WEBSOCK-SRV28-ALB has listeners with insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV28-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV28-ALB/d869734a170e17de",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-WEBSOCK-SRV35-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 WEBSOCK-SRV35-ALB has listeners with insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV35-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV35-ALB/c5b468e64016d726",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-WEBSOCK-SRV26-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 WEBSOCK-SRV26-ALB has listeners with insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV26-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV26-ALB/00d95a0175db1891",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-WEBSOCK-SRV27-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 WEBSOCK-SRV27-ALB has listeners with insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV27-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV27-ALB/6abf7ea034983aff",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-WEBSOCK-SRV29-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 WEBSOCK-SRV29-ALB has listeners with insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV29-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV29-ALB/6dd8781762ecc44c",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-WEBSOCK-SRV30-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 WEBSOCK-SRV30-ALB has listeners with insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV30-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV30-ALB/d70c168862bd9982",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-WEBSOCK-SRV31-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 WEBSOCK-SRV31-ALB has listeners with insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV31-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV31-ALB/d158e62d9a321a68",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_insecure_ssl_ciphers-123456789-us-west-1-WEBSOCK-SRV34-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_insecure_ssl_ciphers",
+    "CheckTitle": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 WEBSOCK-SRV34-ALB has listeners with insecure SSL protocols or ciphers.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have insecure SSL ciphers.",
+    "Risk": "Using insecure ciphers could affect privacy of in transit information.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "https://docs.bridgecrew.io/docs/bc_aws_general_43#terraform",
+            "CLI": "aws elbv2 modify-listener --listener-arn <lb_arn> --ssl-policy ELBSecurityPolicy-TLS13-1-2-Ext2-2021-06",
+            "Other": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/ELBv2/security-policy.html"
+        },
+        "Recommendation": {
+            "Text": "Use a Security policy with a ciphers that are stronger as possible. Drop legacy and unsecure ciphers.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies"
+        }
+    },
+    "Compliance": {
+        "GxP-21-CFR-Part-11": [
+            "11.30"
+        ],
+        "NIST-800-171-Revision-2": [
+            "3_5_10"
+        ],
+        "NIST-800-53-Revision-5": [
+            "sc_8_1",
+            "sc_23_5"
+        ],
+        "ENS-RD2022": [
+            "mp.com.3.aws.elb.1",
+            "mp.com.3.aws.elb.2"
+        ],
+        "RBI-Cyber-Security-Framework": [
+            "annex_i_1_3"
+        ],
+        "FFIEC": [
+            "d3-pc-am-b-13"
+        ],
+        "FedRamp-Moderate-Revision-4": [
+            "sc-8-1",
+            "sc-8"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV34-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV34-ALB/febab9d9b7ccc566",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-SRV27-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB SRV27-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV27-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/SRV27-ALB/e85a63614fa39757",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-SRV29-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB SRV29-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV29-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/SRV29-ALB/acce9f34f2b78afd",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-SRV30-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB SRV30-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV30-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/SRV30-ALB/ecf66de3238f6636",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-SRV31-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB SRV31-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV31-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/SRV31-ALB/f032024f6703a7ff",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-SRV34-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB SRV34-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV34-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/SRV34-ALB/92502524431d8fb7",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-UI34-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB UI34-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI34-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI34-ALB/5407ede2d21e3255",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-UI35-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB UI35-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI35-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI35-ALB/1b38e1effcab6bd6",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-UI31-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB UI31-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI31-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI31-ALB/e1716d817c0702a6",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-UI30-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB UI30-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI30-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI30-ALB/7f9e40c32e99ef5e",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-UI29-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB UI29-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI29-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI29-ALB/42e727d38eccff31",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-UI28-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB UI28-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI28-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI28-ALB/b51c557cd4cb6136",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-UI27-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB UI27-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI27-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI27-ALB/6b53edbe60c6e21f",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-UI26-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB UI26-ALB has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "UI26-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/UI26-ALB/648659905b675555",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-CMS30-ALB-TEST",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB CMS30-ALB-TEST has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "CMS30-ALB-TEST",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/CMS30-ALB-TEST/7112baba1ab0a7bd",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-SRV29-ALB-public",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "ELBv2 ALB SRV29-ALB-public has non-encrypted listeners.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "SRV29-ALB-public",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/SRV29-ALB-public/8ffce11d5178987a",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-WEBSOCK-SRV28-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 ALB WEBSOCK-SRV28-ALB has HTTPS listeners only.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV28-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV28-ALB/d869734a170e17de",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-WEBSOCK-SRV35-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 ALB WEBSOCK-SRV35-ALB has HTTPS listeners only.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV35-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV35-ALB/c5b468e64016d726",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-WEBSOCK-SRV26-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 ALB WEBSOCK-SRV26-ALB has HTTPS listeners only.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV26-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV26-ALB/00d95a0175db1891",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-WEBSOCK-SRV27-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 ALB WEBSOCK-SRV27-ALB has HTTPS listeners only.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV27-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV27-ALB/6abf7ea034983aff",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-WEBSOCK-SRV29-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 ALB WEBSOCK-SRV29-ALB has HTTPS listeners only.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV29-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV29-ALB/6dd8781762ecc44c",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-WEBSOCK-SRV30-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 ALB WEBSOCK-SRV30-ALB has HTTPS listeners only.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV30-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV30-ALB/d70c168862bd9982",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-WEBSOCK-SRV31-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 ALB WEBSOCK-SRV31-ALB has HTTPS listeners only.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV31-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV31-ALB/d158e62d9a321a68",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-elbv2_ssl_listeners-123456789-us-west-1-WEBSOCK-SRV34-ALB",
+    "Provider": "aws",
+    "CheckID": "elbv2_ssl_listeners",
+    "CheckTitle": "Check if Elastic Load Balancers have SSL listeners.",
+    "CheckType": [
+        "Data Protection"
+    ],
+    "ServiceName": "elbv2",
+    "SubServiceName": "",
+    "Status": "PASS",
+    "StatusExtended": "ELBv2 ALB WEBSOCK-SRV34-ALB has HTTPS listeners only.",
+    "Severity": "medium",
+    "ResourceType": "AwsElasticLoadBalancingV2LoadBalancer",
+    "ResourceDetails": "",
+    "Description": "Check if Elastic Load Balancers have SSL listeners.",
+    "Risk": "Clear text communication could affect privacy of information in transit.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "",
+            "Terraform": "",
+            "CLI": "aws elbv2 create-listener --load-balancer-arn <lb_arn> --protocol HTTPS --port 443 --ssl-policy <ssl_policy> --certificates CertificateArn=<certificate_arn>,IsDefault=true",
+            "Other": "https://docs.bridgecrew.io/docs/networking_36#aws-ec2-console"
+        },
+        "Recommendation": {
+            "Text": "Scan for Load Balancers with HTTP or TCP listeners and understand the reason for each of them. Check if the listener can be implemented as TLS instead.",
+            "Url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html"
+        }
+    },
+    "Compliance": {
+        "CISA": [
+            "your-systems-3",
+            "your-surroundings-3",
+            "your-data-2"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "WEBSOCK-SRV34-ALB",
+    "ResourceArn": "arn:aws:elasticloadbalancing:us-west-1:123456789:loadbalancer/app/WEBSOCK-SRV34-ALB/febab9d9b7ccc566",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-opensearch_service_domains_https_communications_enforced-123456789-us-west-1-nlu-sea-domain-11liunszty6b",
+    "Provider": "aws",
+    "CheckID": "opensearch_service_domains_https_communications_enforced",
+    "CheckTitle": "Check if Amazon Elasticsearch/Opensearch Service domains have enforce HTTPS enabled",
+    "CheckType": [
+        "Protect",
+        "Data protection",
+        "Encryption of data in transit"
+    ],
+    "ServiceName": "opensearch",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "Opensearch domain nlu-sea-domain-11liunszty6b does not have enforce HTTPS enabled",
+    "Severity": "medium",
+    "ResourceType": "AwsOpenSearchDomain",
+    "ResourceDetails": "",
+    "Description": "Check if Amazon Elasticsearch/Opensearch Service domains have enforce HTTPS enabled",
+    "Risk": "If not enable unauthorized access to your data could risk increases.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "https://docs.bridgecrew.io/docs/elasticsearch_6#fix---builtime",
+            "Terraform": "",
+            "CLI": "",
+            "Other": "https://docs.bridgecrew.io/docs/elasticsearch_6#aws-console"
+        },
+        "Recommendation": {
+            "Text": "When creating ES Domains; enable 'Require HTTPS fo all traffic to the domain'",
+            "Url": "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-createupdatedomains.html"
+        }
+    },
+    "Compliance": {
+        "AWS-Foundational-Security-Best-Practices": [
+            "elasticsearch"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "nlu-sea-domain-11liunszty6b",
+    "ResourceArn": "arn:aws:es:us-west-1:123456789:domain/nlu-sea-domain-11liunszty6b",
+    "ResourceTags": {}
+},{
+    "AssessmentStartTime": "2023-03-22T18:05:11.674738",
+    "FindingUniqueId": "prowler-aws-opensearch_service_domains_https_communications_enforced-123456789-us-west-1-vis-sea-domain-1m6ba9dd0g2yi",
+    "Provider": "aws",
+    "CheckID": "opensearch_service_domains_https_communications_enforced",
+    "CheckTitle": "Check if Amazon Elasticsearch/Opensearch Service domains have enforce HTTPS enabled",
+    "CheckType": [
+        "Protect",
+        "Data protection",
+        "Encryption of data in transit"
+    ],
+    "ServiceName": "opensearch",
+    "SubServiceName": "",
+    "Status": "FAIL",
+    "StatusExtended": "Opensearch domain vis-sea-domain-1m6ba9dd0g2yi does not have enforce HTTPS enabled",
+    "Severity": "medium",
+    "ResourceType": "AwsOpenSearchDomain",
+    "ResourceDetails": "",
+    "Description": "Check if Amazon Elasticsearch/Opensearch Service domains have enforce HTTPS enabled",
+    "Risk": "If not enable unauthorized access to your data could risk increases.",
+    "RelatedUrl": "",
+    "Remediation": {
+        "Code": {
+            "NativeIaC": "https://docs.bridgecrew.io/docs/elasticsearch_6#fix---builtime",
+            "Terraform": "",
+            "CLI": "",
+            "Other": "https://docs.bridgecrew.io/docs/elasticsearch_6#aws-console"
+        },
+        "Recommendation": {
+            "Text": "When creating ES Domains; enable 'Require HTTPS fo all traffic to the domain'",
+            "Url": "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-createupdatedomains.html"
+        }
+    },
+    "Compliance": {
+        "AWS-Foundational-Security-Best-Practices": [
+            "elasticsearch"
+        ]
+    },
+    "Categories": [
+        "encryption"
+    ],
+    "DependsOn": [],
+    "RelatedTo": [],
+    "Notes": "",
+    "Profile": "prod",
+    "AccountId": "123456789",
+    "OrganizationsInfo": null,
+    "Region": "us-west-1",
+    "ResourceId": "vis-sea-domain-1m6ba9dd0g2yi",
+    "ResourceArn": "arn:aws:es:us-west-1:123456789:domain/vis-sea-domain-1m6ba9dd0g2yi",
+    "ResourceTags": {}
+}]
