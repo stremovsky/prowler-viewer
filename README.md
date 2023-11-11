@@ -4,6 +4,8 @@ This is a simplified viewer for prowler reports.
 
 [Prowler](https://github.com/prowler-cloud/prowler) is a popular open-source cloud scanner.
 
+The project is using the [Tabulator](https://tabulator.info/) open-soure javascript library to display data grid.
+
 Example report:
 
 ![prowler report example](report.png)
