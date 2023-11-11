@@ -2,13 +2,13 @@
 
 This is a simplified viewer for prowler reports.
 
-Prowler is an open-source cloud scanner.
+[Prowler](https://github.com/prowler-cloud/prowler) is a popular open-source cloud scanner.
 
 Example report:
 
 ![prowler report example](report.png)
 
 ## How to use
-Just open the viewer.html file in the browser. Then you will need to click on "select file" to select prowler report json file.
+Just open the viewer.html file in the browser. Then you will need to click on "select file" to select the prowler report json file. You can open the ```example.json``` file attached to this project to view the report example.
 
 Depending on the report file size, you will see the report in a couple of seconds.
