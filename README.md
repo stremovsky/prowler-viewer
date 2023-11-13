@@ -6,7 +6,7 @@ This is a simplified Prowler JSON report viewer inspired by the Airtable design.
 
 The project is using the [Tabulator](https://tabulator.info/) open-soure javascript library to display data grid.
 
-Example report:
+Report example:
 
 ![prowler report example](report.png)
 
