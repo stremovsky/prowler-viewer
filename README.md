@@ -1,10 +1,12 @@
 # prowler-viewer
 
-This is a simplified Prowler JSON report viewer inspired by the Airtable design.
+This is a Prowler JSON Report Viewer inspired by the Airtable design.
 
 [Prowler](https://github.com/prowler-cloud/prowler) is a popular open-source cloud scanner.
 
-The project is using the [Tabulator](https://tabulator.info/) open-soure javascript library to display data grid.
+However, its built-in HTML reports feel a bit outdated ;-)
+
+The project is using the [Tabulator](https://tabulator.info/) open-soure javascript library to show dynamic data grid.
 
 Report example:
 
