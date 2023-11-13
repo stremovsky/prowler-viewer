@@ -11,6 +11,9 @@ Example report:
 ![prowler report example](report.png)
 
 ## How to use
-Just open the viewer.html file in the browser. Then you will need to click on "Choose File" to select the prowler report json file. You can open the ```example.json``` file attached to this project to view the report example.
+*. Open the ```iewer.html``` file in your browser.
+*. Click on "Choose File" to select the Prowler report JSON file.
+
+For an example, you can open the ```example.json``` file attached to this project to view the sample report.
 
 Depending on the report file size, you will see the report in a couple of seconds.
